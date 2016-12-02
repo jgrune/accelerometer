@@ -9,8 +9,8 @@ function handleOrientation(event){
   var beta = event.beta;
   var gamma = event.gamma;
 
-   document.getElementById('absolute').innerHTML = absolute.toFixed(4)
-  document.getElementById('alpha').innerHTML = alpha.toFixed(4)
-  document.getElementById('beta').innerHTML = beta.toFixed(4)
-  document.getElementById('gamma').innerHTML = gamma.toFixed(4)
+   document.getElementById('absolute').innerHTML = absolute
+  document.getElementById('alpha').innerHTML = alpha
+  document.getElementById('beta').innerHTML = beta
+  document.getElementById('gamma').innerHTML = gamma
 }
