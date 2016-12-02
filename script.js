@@ -23,7 +23,7 @@ function handleOrientation(event){
 }
 
 function moveBall(x, y){
-  var ball = getElementById('ball')
+  var ball = document.getElementById('ball')
   ball.style.left = x;
   ball.style.top = y;
 }
